@@ -1,0 +1,66 @@
+.menu{
+    margin: 0.4rem .2rem;
+    background-color: #fff;
+    position:relative;
+    z-index: 99;
+}
+.menuTop{
+    border: 1px solid #dcdfe4;
+    border-radius:3px;
+    padding:0 0.3rem;
+    height:0.88rem;
+    line-height:0.88rem;
+    position:relative;
+}
+.menuTop:after{
+    content: '';
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.menuTopLeft{
+    float: left;
+}
+.down{
+    float: right;
+    margin-top: .4rem;
+    display: inline-block;
+    border-top: 0.14rem solid #adafb4;
+    border-left: 0.12rem solid transparent;
+    border-right: 0.12rem solid transparent;
+}
+.active .down{
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.menuContainer{
+    border: 1px solid #dcdfe4;
+    border-top: 2px solid #dcdfe4;
+    width:100%;
+    border-radius:0 0 3px 3px;
+    position:absolute;
+    left: 0;
+    top: 0.86rem;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.mask{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background-color: transparent;
+}
+.menuList{
+    background-color: #fff;
+    list-style: none;
+}
+.menuList .item{
+    height: 0.78rem;
+    line-height: 0.78rem;
+    padding-left: .3rem;
+    border-bottom: 1px solid #dcdfe4;
+}

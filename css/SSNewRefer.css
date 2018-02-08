@@ -1,0 +1,34 @@
+.refer-content .am-list-item {
+    padding-left: 0!important;
+}
+
+.refer-content .am-list-item .am-list-line-multiple{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+.refer-content .am-list-item .am-list-line .am-list-content {
+    line-height: 3;
+}
+
+.refer-content .am-list-item .am-list-line .am-list-extra {
+    -webkit-flex-basis: 0.69rem!important;
+    -ms-flex-preferred-size: 0.69rem!important;
+    flex-basis: 0.69rem!important;
+}
+
+.my-drawer {
+    position: relative!important;
+    overflow: auto!important;
+    -webkit-overflow-scrolling: touch!important;
+}
+.my-drawer .am-drawer-sidebar {
+    background-color: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+    width: 80vw;
+    padding: 0;
+    position: relative!important;
+}

@@ -1,0 +1,11 @@
+
+.am-list-item .am-list-line .am-list-extra{
+    -webkit-flex-basis: 269px;
+    -ms-flex-preferred-size: 269px;
+    flex-basis: 269px;
+    font-size: 0.3rem!important;
+}
+
+.arrowNone .am-list-extra{
+    margin-right: 0.46rem;
+}

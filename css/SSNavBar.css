@@ -1,0 +1,15 @@
+.am-navbar.am-navbar-dark{
+    background-color: #302f35;
+}
+
+.am-navbar-title {
+    flex: 3!important;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box!important;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    white-space: normal!important;
+    height: auto!important;
+}

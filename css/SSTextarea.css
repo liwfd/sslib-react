@@ -1,0 +1,95 @@
+.areaHeader:after {
+    display: block;
+    position: absolute;
+    content: '';
+    left: 0.75rem;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    width: 6.75rem;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+.areaHeader2:after {
+    display: block;
+    position: absolute;
+    content: '';
+    left: 0.3rem;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    width: 7.2rem;
+    border-bottom: 1PX solid #f0f0f0;
+}
+
+.ellipsis {
+    position: absolute;
+    right: 0.3rem;
+    top: 100%;
+    font-size: 0.3rem;
+    padding-right: 0.24rem;
+    background-color: #FFFFFF;
+    color: #000;
+    z-index: 99;
+}
+
+.am-textarea-control {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+textarea {
+    overflow: hidden !important;
+}
+
+.am-list .am-list-item.am-textarea-item:after {
+    border-bottom: 0PX;
+}
+
+.textarea-footer {
+    padding-left: 0.3rem;
+}
+
+.textarea-footer-content {
+    border-bottom: 1PX solid #ddd;
+}
+
+.textarea-footer-row {
+    padding: 0.1rem 0;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.readall_box {
+    position: relative;
+    z-index: 100;
+    padding: 0 0 0.5rem;
+    margin-top: -3rem;
+    text-align: center;
+}
+
+.readall_center {
+    text-align: center;
+}
+
+.readall_box .read_more_mask {
+    height: 3rem;
+    background: -moz-linear-gradient(bottom, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0));
+    background: -webkit-gradient(linear, 0 top, 0 bottom, from(rgba(255, 255, 255, 0)), to(#fff));
+    background: -o-linear-gradient(bottom, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0));
+}
+
+.showAll {
+    font-size: 0.3rem;
+    color: #de686d;
+    background: #fff;
+    border-radius: 0.1rem;
+    border: 1px solid #de686d;
+    line-height: 0.5rem;
+    border: 1px solid #de686d;
+    padding: 0 0.5rem;
+}

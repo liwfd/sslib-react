@@ -1,0 +1,12 @@
+.ss-refer-tree .refer-tree-content{
+    height: 10rem;
+    overflow: auto;
+}
+
+.ss-refer-tree .am-list-item{
+    border-bottom: solid 0.01rem #ddd;
+}
+
+.ss-refer-tree .refer-accordion .refer-pad .am-accordion-content-box {
+    padding-left: 0.4rem;
+}

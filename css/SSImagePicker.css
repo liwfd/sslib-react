@@ -1,0 +1,23 @@
+.weui-icon-delete.weui-icon_gallery-delete{
+    font-size: 0.4rem;
+}
+
+.weui-gallery__opr{
+    line-height: 1rem;
+}
+
+.am-modal-wrap{
+    z-index: 1001;
+}
+.none .am-image-picker-list .am-image-picker-item .am-image-picker-item-remove,.none .weui-gallery__opr{
+    display: none;
+}
+.am-modal-mask{
+    z-index: 9999;
+}
+.am-modal-wrap{
+    z-index: 10000;
+}
+.signature .am-image-picker-list .am-image-picker-upload-btn input{
+    display: none;
+}

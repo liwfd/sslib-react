@@ -1,0 +1,40 @@
+.am-popup-slide-up {
+    top: 0;
+}
+
+.am-popup{
+    z-index: 5500;
+}
+
+.ss-refer-list .am-list-header{
+    padding: 0;
+}
+
+.ss-refer-list .list-content{
+    height: 9rem;
+    overflow: auto;
+}
+
+.ss-refer-list .am-pagination.custom-pagination-with-icon{
+    bottom: 0;
+}
+/*下拉加载的样式*/
+.ss-refer-list .referList-content{
+    height: 11rem;
+    overflow: auto;
+}
+.referList-content  .am-radio-item .am-list-line{
+    border-top: 1px solid #d5d5d5;
+
+}
+.referList-content  .am-radio-item:first-child .am-list-line{
+    border-top: none;
+}
+
+.referList-content  .am-checkbox-item {
+    border-top: 1px solid #d5d5d5;
+
+}
+.referList-content  .am-checkbox-item:first-child{
+    border-top: none;
+}

@@ -1,0 +1,30 @@
+.am-list-item .am-input-label.am-input-label-5{
+    -webkit-flex-basis: 375px;
+    -ms-flex-preferred-size: 375px;
+    flex-basis: 375px;
+    text-overflow: ellipsis;
+}
+.am-list-item .am-input-control input{
+    text-align: right;
+    color: #888;
+    text-overflow: ellipsis;
+    font-size: 0.3rem!important;
+}
+
+.am-list-item.am-input-item{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.am-list-item .am-list-line .am-list-content{
+    padding-top: 0 !important;
+    padding-bottom:0 !important;
+    font-size: 0.34rem!important;
+}
+
+.am-list-item.am-input-disabled .am-input-label{
+    color: #000;
+}
+.marginRi .am-input-control{
+    padding-right: 0.46rem;
+}
